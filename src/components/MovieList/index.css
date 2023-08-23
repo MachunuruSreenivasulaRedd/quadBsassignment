@@ -1,0 +1,8 @@
+/* Write your CSS code here */
+.movieList {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}

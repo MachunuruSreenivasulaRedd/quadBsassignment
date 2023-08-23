@@ -1,0 +1,82 @@
+.movieCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #cfd6e6;
+  padding: 20px;
+}
+.name {
+  color: #b32624;
+  text-transform: uppercase;
+  font-family: sans-serif;
+}
+.rating {
+  color: blueviolet;
+  font-size: 30px;
+}
+.head {
+  color: Black;
+  font-size: 30px;
+  background-color: greenyellow;
+  border-radius: 12px;
+  margin: 10px;
+  padding: 10px;
+}
+.content {
+  font-size: 24px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: white;
+  padding: 10px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow: 2px black;
+  color: black;
+  font-weight: 400;
+  line-height: 30px;
+}
+.bookBtn {
+  background-color:red;
+  padding:20px;
+  border: 0px;
+  border-radius: 12px;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+}
+.formContainer {
+    width:90%;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  height: 500px;
+  box-shadow: 3px rgba(0, 0, 0, 0.4);
+  align-items: center;;
+}
+.input {
+  box-shadow: 1px skyblue;
+  outline: none;
+  margin: 20px;
+  height: 50px;
+  width: 70%;
+  border-radius: 12px;
+  font-size: 24px;
+}
+.formHeading {
+  font-size: 30px;
+  color: blueviolet;
+  font-weight: bold;
+}
+.selectedMovie{
+    font-size: 35px;
+    color: Red;
+
+}
+.finishBtn{
+  background-color:red;
+  padding:20px;
+  border: 0px;
+  border-radius: 12px;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+}
